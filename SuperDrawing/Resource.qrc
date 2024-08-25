@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/new/image">
+        <file>BDiagPattern.PNG</file>
+        <file>CrossPattern.PNG</file>
+        <file>Danse1Pattern.PNG</file>
+        <file>Danse2Pattern.PNG</file>
+        <file>Danse3Pattern.PNG</file>
+        <file>Danse4Pattern.PNG</file>
+        <file>Danse5Pattern.PNG</file>
+        <file>Danse6Pattern.PNG</file>
+        <file>Danse7Pattern.PNG</file>
+        <file>DashDotDotLine.PNG</file>
+        <file>DashDotLine.PNG</file>
+        <file>DashLine.PNG</file>
+        <file>DiagCrossPattern.PNG</file>
+        <file>SolidLine.PNG</file>
+        <file>SolidPattern.PNG</file>
+        <file>VerPattern.PNG</file>
+    </qresource>
+</RCC>

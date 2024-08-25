@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog_style</class>
+ <widget class="QDialog" name="Dialog_style">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>848</width>
+    <height>478</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>18</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label_style">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>40</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Стиль линии</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_Ok">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>410</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>ОК</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_Cancel">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>410</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Отмена</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_width">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Толщина линии</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_line">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>40</y>
+     <width>271</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <item>
+    <property name="text">
+     <string>Нет ручки</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Сплошная</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Пунктирная</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Точечная</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Тире-точка</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Тире-точка-точка</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_style_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>200</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Стиль заливки</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_brush">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>200</y>
+     <width>381</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <item>
+    <property name="text">
+     <string>Нет заливки</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Сплошная</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Точечная (плотность 1)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Точечная (плотность 2)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Точечная (плотность 3)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Точечная (плотность 4)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Точечная (плотность 5)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Точечная (плотность 6)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Точечная (плотность 7)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Горизонтальная</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Вертикальная</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>В клеточку</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Диагональная(вправо)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Диагональная(влево)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Диагонально-клеточная</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QSpinBox" name="spinBox_Width">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>140</y>
+     <width>71</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="minimum">
+    <number>1</number>
+   </property>
+   <property name="maximum">
+    <number>20</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_colorLine">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>90</y>
+     <width>201</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Цвет линии</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_colorBrush">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>250</y>
+     <width>201</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Цвет заливки</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_line">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>40</y>
+     <width>351</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_brush">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>180</y>
+     <width>351</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>comboBox_line</tabstop>
+  <tabstop>comboBox_brush</tabstop>
+  <tabstop>pushButton_colorLine</tabstop>
+  <tabstop>spinBox_Width</tabstop>
+  <tabstop>pushButton_colorBrush</tabstop>
+  <tabstop>pushButton_Ok</tabstop>
+  <tabstop>pushButton_Cancel</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
